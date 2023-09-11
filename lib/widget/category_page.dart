@@ -49,12 +49,12 @@ class CategoryPage extends StatelessWidget {
           itemCount: 10,
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
-              crossAxisSpacing: 16,
-              mainAxisSpacing: 16,
-              childAspectRatio: 0.9 //increase the height of the card
           ),
           itemBuilder: (context, index){
-            return CourseBox();
+            return Padding(
+              padding: const EdgeInsets.symmetric(vertical: 12.0, horizontal: 12),
+              child: CourseBox(),
+            );
           }
       ),
 

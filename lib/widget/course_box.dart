@@ -17,11 +17,6 @@ class CourseBox extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              // Image.asset(
-              //   "assets/images/sis cute.png",
-              //   width: 80,
-              //   height: 80,
-              // ),
               const Icon(
                 Icons.computer,
                 size: 80,
@@ -31,7 +26,8 @@ class CourseBox extends StatelessWidget {
                 width: 200,
                 decoration: BoxDecoration(
                     borderRadius: const BorderRadius.all(Radius.circular(10)),
-                    color: Colors.red[100]),
+                    color: Colors.red[100]
+                ),
                 child: const Padding(
                   padding: EdgeInsets.all(8.0),
                   child: Row(
