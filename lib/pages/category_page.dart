@@ -51,8 +51,8 @@ class CategoryPage extends StatelessWidget {
               crossAxisCount: 2,
           ),
           itemBuilder: (context, index){
-            return Padding(
-              padding: const EdgeInsets.symmetric(vertical: 12.0, horizontal: 12),
+            return const Padding(
+              padding: EdgeInsets.symmetric(vertical: 12.0, horizontal: 12),
               child: CourseBox(),
             );
           }

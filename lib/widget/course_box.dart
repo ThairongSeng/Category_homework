@@ -10,7 +10,7 @@ class CourseBox extends StatelessWidget {
       width: 200,
       height: 200,
       decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(20), color: Colors.grey[100]),
+          borderRadius: BorderRadius.circular(20), color: Colors.red[100]),
       child: Padding(
         padding: const EdgeInsets.all(15),
         child: Column(
@@ -26,7 +26,7 @@ class CourseBox extends StatelessWidget {
                 width: 200,
                 decoration: BoxDecoration(
                     borderRadius: const BorderRadius.all(Radius.circular(10)),
-                    color: Colors.red[100]
+                    color: Colors.grey[100]
                 ),
                 child: const Padding(
                   padding: EdgeInsets.all(8.0),

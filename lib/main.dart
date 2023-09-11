@@ -1,4 +1,4 @@
-import 'package:category_homework/widget/category_page.dart';
+import 'package:category_homework/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,12 +13,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Flutter Categories Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.grey),
         useMaterial3: true,
       ),
-      home: const CategoryPage()
+      home: const LoginPage()
     );
   }
 }
