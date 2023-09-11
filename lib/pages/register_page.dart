@@ -127,7 +127,7 @@ class _RegisterState extends State<RegisterPage> {
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 23,
                               decoration: TextDecoration.underline,
                               decorationColor: Colors.blue,
                             ),
@@ -152,10 +152,10 @@ class _RegisterState extends State<RegisterPage> {
                       ),
 
                       TextButton(
-                        child: const Text('Login',
+                        child: Text('Login',
                           style: TextStyle(
-                            color: Colors.blue,
-                            fontSize: 18,
+                            color: Colors.blue[600],
+                            fontSize: 20,
                             decoration: TextDecoration.underline,
                             decorationColor: Colors.blue,
                           ),
